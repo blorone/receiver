@@ -15,8 +15,8 @@ It can be embedded within an <iframe> to receive messages from a parent window.
 - script.js: JavaScript file handling the message reception and domain display logic.
 
 ## How it Works
-The page listens for the `message` event and executes the `readMsg` function when a message is received.  
-The `readMsg` function checks the origin of the message, and if it matches 'http://localhost', it updates the content of the "Message" section with the received data.   
-The domain of the embedded page is displayed in the "Iframe Page Domain" section.
+- The page listens for the `message` event and executes the `readMsg` function when a message is received.  
+- The `readMsg` function checks the origin of the message, and if it matches 'http://localhost', it updates the content of the "Message" section with the received data.   
+- The domain of the embedded page is displayed in the "Iframe Page Domain" section.
 ## Important Note
 For security reasons, the origin of the message must match the expected origin (in this case, 'http://localhost'). This helps prevent malicious scripts from sending unauthorized messages.
