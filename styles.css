@@ -1,0 +1,13 @@
+body {
+    font: 1em sans-serif;
+}
+
+h1 {
+    margin: 0 0 0 0;
+    background: Tomato;
+    color: White;
+}
+
+p {
+    margin: 0 0 15px 0;
+}
